@@ -1,0 +1,20 @@
+.imgTable{
+    width: 500px;
+    height: 500px;
+}
+
+#logo{
+ width: 50px;   
+}
+
+.socialmedia{
+    width: 25px;
+}
+
+#me{
+    background-color: rgb(156, 156, 156);
+}
+
+#secFooter{
+    background-color: rgb(203, 203, 203);
+}
