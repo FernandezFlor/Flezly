@@ -4,11 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Flezly Design</title>
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <nav> <!--Barra de navegación-->
             <a href="../index.html">
-                <img src="../img/logo.png" alt="Logo de Flezly Design">
+                <img src="../img/logo.png" alt="Logo de Flezly Design" class="logo">
             </a>
             <ul>
                 <li><a href="forYou.html">For you</a></li>
@@ -16,7 +17,7 @@
             </ul>
         </nav> 
         <header><!--Encabezado-->
-            <h1>The best!</h1>
+            <h1>The <span>best</span>!</h1>
         </header>
         <main><!--Contenido principal-->
             <table>
@@ -29,17 +30,25 @@
         </main>
 
         <footer><!--Pie de pagina-->
-            <section>
+            <section class="secFooter">
+                <section>
+                    <h4>Follow us</h4>
+                    <a href="https://facebook.com"><img src="../img/icon/facebook.png" class="socialmedia" alt="facebook page"></a>
+                    <a href="https://twitter.com"><img src="../img/icon/twitter.png" class="socialmedia" alt="twitter page"></a>
+                    <a href="https://instagram.com"><img src="../img/icon/instagram.png" class="socialmedia" alt="instagram page"></a>
+                </section>
+                <section class="Newsletter">
+                    <form action="envio.php" method="post">
+                        <label for="email">Suscribe to our Newsletter!</label>
+                        <br>
+                        <input type="email" name="email" id="email" placeholder="example@123.com">
+                        <input type="submit" value="suscribe" id="btnSub">
+                    </form>
+                </section>
+            </section>
+            <section class="me">
                 <h3>Proyecto diseñado por Florencia Fernández</h3>
                 <a href="portfolio.html" target="_blank">Portfolio</a>
-            </section>
-            <section id="Newsletter">
-                <form action="envio.php" method="post">
-                    <label for="email">Suscribe to our Newsletter!</label>
-                    <br>
-                    <input type="email" name="email" id="email" placeholder="example@123.com">
-                    <input type="submit" value="suscribe" id="btnSub">
-                </form>
             </section>
         </footer>
 

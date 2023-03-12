@@ -10,18 +10,18 @@
     <body>
         <nav> <!--Barra de navegación-->
             <a href="index.html">
-                <img src="img/logo.png" alt="Logo de Flezly Design" id="logo">
+                <img src="img/logo.png" alt="Logo de Flezly Design" class="logo">
             </a>
-            <ul>
+            <ul class="navUl">
                 <li><a href="pages/forYou.html">For you</a></li>
                 <li><a href="pages/theBest.html">The best</a></li>
             </ul>
         </nav> 
         <header><!--Encabezado-->
-            <h1>Welcome to a creative world!</h1>
+            <h1>Welcome to a <span>creative</span> world!</h1>
         </header>
         <main><!--Contenido principal-->
-            <table>
+            <table class="tableIndex">
                 <tr>
                     <th><img src="img/content/photos/photoFlowers.jpg" class="imgTable" alt="flores rosas"></th>
                     <th><img src="img/content/ilustration/ilusBambi.jpg" class="imgTable" alt="ciervo"></th>
@@ -31,14 +31,14 @@
         </main>
 
         <footer><!--Pie de pagina-->
-            <section id="secFooter">
+            <section class="footerSocial">
                 <section>
                     <h4>Follow us</h4>
-                    <img src="img/icon/facebook.png" class="socialmedia" alt="facebook page">
-                    <img src="img/icon/twitter.png" class="socialmedia" alt="twitter page">
-                    <img src="img/icon/instagram.png" class="socialmedia" alt="instagram page">
+                    <a href="https://facebook.com"><img src="img/icon/facebook.png" class="socialmedia" alt="facebook page"></a>
+                    <a href="https://twitter.com"><img src="img/icon/twitter.png" class="socialmedia" alt="twitter page"></a>
+                    <a href="https://instagram.com"><img src="img/icon/instagram.png" class="socialmedia" alt="instagram page"></a>
                 </section>
-                <section id="Newsletter">
+                <section class="footerNewsletter">
                     <form action="envio.php" method="post">
                         <label for="email">Suscribe to our Newsletter!</label>
                         <br>
@@ -47,7 +47,7 @@
                     </form>
                 </section>
             </section>
-            <section id="me">
+            <section class="footerMe">
                 <h3>Proyecto diseñado por Florencia Fernández</h3>
                 <a href="portfolio.html" target="_blank">Portfolio</a>
             </section>

@@ -1,0 +1,8 @@
+Reglas:
+Usar camelCase para las clases
+Fontsize con rem
+Margin y padding con %
+Colores con rgb
+
+
+margin:auto
